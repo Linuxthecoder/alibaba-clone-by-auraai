@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: #f8f9fa;
+    color: #222;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-alibaba-orange hover:bg-orange-700 text-white font-semibold py-2.5 px-6 rounded-lg transition-all duration-200 shadow-sm;
+  }
+  .btn-secondary {
+    @apply bg-white border border-gray-300 hover:border-alibaba-orange hover:text-alibaba-orange text-gray-700 font-medium py-2.5 px-6 rounded-lg transition-all duration-200;
+  }
+  .card {
+    @apply bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-200;
+  }
+  .input-field {
+    @apply w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-alibaba-orange/20 focus:border-alibaba-orange transition-all;
+  }
+  .section-title {
+    @apply text-2xl font-bold text-gray-900 mb-6;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
