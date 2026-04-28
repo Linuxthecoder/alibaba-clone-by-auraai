@@ -13,7 +13,7 @@ A full-fledged MVP clone of **Alibaba.com** — the world's leading B2B e-commer
 
 ## 🚀 Live Demo
 
-**[🔗 View Live Deployment](https://alibaba-clone-by-auraai.vercel.app)** *(Deploy to your own Vercel for a custom URL)*
+**[🔗 View Live Deployment](https://alibaba-clone-by-auraai.vercel.app)** 
 
 ---
 
